@@ -18,6 +18,7 @@
     "joi": "^13.7.0",
     "package": "^1.0.1",
     "sequelize": "^4.39.0",
+    "sqlite3": "^4.0.2",
     "vision": "^5.4.0"
   },
   "devDependencies": {
