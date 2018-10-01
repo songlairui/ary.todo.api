@@ -4,6 +4,10 @@ const helloRouter = [
     path: '/hi',
     async handler(request, h) {
       return `hello ${request.query.name || 'world'}`
+    },
+    config: {
+      tags: ['api', 'hi'],
+      description: '打招呼'
     }
   }
 ]
