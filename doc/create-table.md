@@ -24,4 +24,5 @@
 ```
 node_modules/.bin/sequelize init
 node_modules/.bin/sequelize migration:create --name all-todo
+node_modules/.bin/sequelize seed:create --name init-all-todo
 ```
